@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace DatingApp.API.Helpers
 {
+    // Фильтр действий, позволяет выполнить определенные действия поп завершении работы метода действий
     public class LogUserActivity : IAsyncActionFilter
     {
         public async Task OnActionExecutionAsync(ActionExecutingContext context,
